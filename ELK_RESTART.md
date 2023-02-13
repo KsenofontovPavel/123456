@@ -1,13 +1,13 @@
 # Процесс остановки  
 
-**filebeat** 
+1. **filebeat** 
 на включном потоке перезапуска не желателен 
 
-**logstash**
+2. **logstash**
 sudo systemctl stop logstach.service
 
-**elasticsearch**
+3. **elasticsearch**
 sudo systemctl stop elasticsearch.service
 
-**kibana**
+4. **kibana**
 sudo systemctl stop kibana.service
